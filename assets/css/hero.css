@@ -1,6 +1,8 @@
 .hero{
     width: 100%;
-    height: ;
-    background-image: url('/assets/img/image007-scaled.avif');
+    height: 100%;
+    display: flex;
+    background-image:  url('/assets/img/21C0425_002.jpg');
     background-size: cover;
+
 }
