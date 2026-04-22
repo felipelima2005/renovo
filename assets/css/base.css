@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: inline-block;
+    font-size: 100%;
+    font-weight: normal;
+     font-family: "Nunito", sans-serif;
 }
 :root{
     --bg-dark : #1a1b1c;
@@ -23,4 +26,14 @@ body{
     font-size: 2rem;
     width: 100%;
     height: auto;
+}
+
+ul {
+    list-style: none;
+
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
 }
