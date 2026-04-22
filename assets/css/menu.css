@@ -2,6 +2,7 @@
     width: 100%;
     background-color: var(--bg-dark);
     color: var(--text-title);
+    border-bottom: 3px solid var(--cor-secundaria);
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
