@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inline-block;
+}
+:root{
+    --bg-dark : #1a1b1c;
+    --bg-med : #AEB894;
+    --color-primaria : #00A544 ;
+    --cor-secundaria :  #F7E539;
+    --text-main : #fff;
+    --text-title : #fefdfd;
+    --titulo-main : 4rem;
+    --sub : 3rem;
+
+
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 2rem;
+    width: 100%;
+    height: auto;
+}
