@@ -1,8 +1,17 @@
 .hero{
     width: 100%;
-    height: 100%;
+    height: 50%;
     display: flex;
-    background-image:  url('/assets/img/21C0425_002.jpg');
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-image: linear-gradient(rgba(5, 56, 28, 0.678)), url('/assets/img/image007-scaled.avif');
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.hero-left{
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 
 }
