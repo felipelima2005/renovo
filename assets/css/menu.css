@@ -16,14 +16,10 @@
     padding: 2.5rem;
     font-size: var(--sub);
 }
-.menu_item{
-    width: 50%;
 
-}
-
-.menu_item, li {
+.menu_itens, li {
     display: inline-block;
-    height: 2%;
+    
     padding: 2.5rem;
     font-size: 1.5rem;
     padding: 1rem;
@@ -31,7 +27,7 @@
     
 }
 
-.menu_item, li:hover{
+.menu_itens, li:hover{
     color: var(--color-primaria);
     font-size: 1.7rem;
     transition: 1.3s;
@@ -49,4 +45,28 @@
     color: var(--sub);
     border-radius: 0.7rem;
     transition: 1s;
+}
+@media(min-width: 320px){
+    .menu_logo{
+    padding: 1.5rem;
+    
+}
+.menu_itens,li {
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: center;
+    margin: 0 2rem;
+    padding: 0.5rem ;
+    font-size: 1.5rem;
+    
+}
+.menu_itens, li:hover{
+    font-size: 1rem
+}
+.menu_contato{
+    font-size: 1.7rem;
+
+}
+
 }
